@@ -88,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const contactForm = document.getElementById("contactForm");
 
   contactForm.addEventListener("submit", function (e) {
-    e.preventDefault();
     alert("شكرًا لتواصلك معنا، سنقوم بالرد عليك في أقرب وقت ممكن.");
     this.reset();
   });

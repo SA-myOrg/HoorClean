@@ -77,7 +77,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  padding: 15px 10px;
 }
 .logo {
   text-decoration: none;
@@ -723,6 +723,11 @@ body {
   flex-shrink: 0;
 }
 
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
 .contact-text h4 {
   font-size: 1.2rem;
   margin-bottom: 5px;
