@@ -83,12 +83,4 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
-
-  // نموذج الاتصال
-  const contactForm = document.getElementById("contactForm");
-
-  contactForm.addEventListener("submit", function (e) {
-    alert("شكرًا لتواصلك معنا، سنقوم بالرد عليك في أقرب وقت ممكن.");
-    this.reset();
-  });
 });

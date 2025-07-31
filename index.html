@@ -117,7 +117,12 @@
 
         <div class="services-grid">
           <!-- تنظيف منازل -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            id="homeS"
+          >
             <div class="service-img">
               <img
                 loading="lazy"
@@ -140,7 +145,12 @@
             </div>
           </div>
           <!-- تنظيف فلل -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            id="lHomeS"
+          >
             <div class="service-img">
               <img src="imgs/فلل.png" alt="تنظيف فلل" loading="lazy" />
             </div>
@@ -218,7 +228,12 @@
             </div>
           </div>
           <!-- تنظيف خزانات -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            id="tankS"
+          >
             <div class="service-img">
               <img src="imgs/3خزان.webp" alt="تنظيف خزانات" loading="lazy" />
             </div>
@@ -240,7 +255,12 @@
           </div>
 
           <!-- مكافحة حشرات -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            id="insS"
+          >
             <div class="service-img">
               <img src="imgs/حشرات.jpg" alt="مكافحة حشرات" loading="lazy" />
             </div>
@@ -265,7 +285,12 @@
           </div>
 
           <!-- تنظيف بالبخار -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            id="cleanS"
+          >
             <div class="service-img">
               <img src="imgs/بخار.jpg" alt="تنظيف بالبخار" loading="lazy" />
             </div>
@@ -304,7 +329,12 @@
             </div>
           </div>
           <!-- طارد الحمام -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            id="pigeonS"
+          >
             <div class="service-img">
               <img
                 src="imgs/طارد-الحمام.webp"
@@ -329,7 +359,12 @@
           </div>
 
           <!-- صيانة حدائق -->
-          <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            id="gardensS"
+          >
             <div class="service-img">
               <img src="imgs/حدائق.jpg" alt="صيانة حدائق" loading="lazy" />
             </div>
@@ -934,19 +969,15 @@
 
         <div class="contact-content">
           <div class="contact-info" data-aos="fade-right">
-            <h3>ابقى على تواصل</h3>
-            <p>
-              يمكنك التواصل معنا عبر أي من الطرق التالية أو تعبئة نموذج الاتصال
-              وسنقوم بالرد عليك في أسرع وقت ممكن.
-            </p>
-
             <div class="contact-method">
               <div class="contact-icon">
                 <i class="fas fa-phone"></i>
               </div>
               <div class="contact-text">
                 <h4>الهاتف</h4>
-                <a href="tel:+966545870254">+966 545870254</a>
+                <a href="tel:+966545870254">
+                  <span dir="ltr">+966 54 587 0254</span></a
+                >
               </div>
             </div>
 
@@ -956,7 +987,10 @@
               </div>
               <div class="contact-text">
                 <h4>البريد الإلكتروني</h4>
-                <a href="mailto:info@hoorclean.com">info@hoorclean.com</a>
+                <a
+                  href="mailto:hassanabdelaziz940@gmail.com?subject=استفسار من الموقع الالكتروني &body=السلام عليكم، لدي استفسار بشأن"
+                  >hassanabdelaziz940@gmail.com</a
+                >
               </div>
             </div>
 
@@ -969,56 +1003,12 @@
                 <p>مكة المكرمة - المملكة العربية السعودية</p>
               </div>
             </div>
-
-            <div class="social-links">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
           </div>
-
-          <div class="contact-form" data-aos="fade-left">
-            <form
-              id="contactForm"
-              action="https://formsubmit.co/hassanabdelaziz940@gmail.com"
-              method="POST"
-            >
-              <div class="form-group">
-                <label for="name">الاسم الكامل</label>
-                <input type="text" id="name" name="name" required />
-              </div>
-
-              <div class="form-group">
-                <label for="phone">رقم الهاتف</label>
-                <input type="tel" id="phone" name="phone" required />
-              </div>
-
-              <div class="form-group">
-                <label for="email">البريد الإلكتروني</label>
-                <input type="email" id="email" name="email" />
-              </div>
-
-              <div class="form-group">
-                <label for="service">الخدمة المطلوبة</label>
-                <select id="service" name="service">
-                  <option value="">اختر الخدمة</option>
-                  <option value="house-cleaning">تنظيف منازل</option>
-                  <option value="tank-cleaning">تنظيف خزانات</option>
-                  <option value="pest-control">مكافحة حشرات</option>
-                  <option value="steam-cleaning">تنظيف بالبخار</option>
-                  <option value="pigeon-control">طارد الحمام</option>
-                  <option value="garden-maintenance">صيانة حدائق</option>
-                </select>
-              </div>
-
-              <div class="form-group">
-                <label for="message">الرسالة</label>
-                <textarea id="message" name="message" required></textarea>
-              </div>
-
-              <button type="submit" class="btn">إرسال الرسالة</button>
-            </form>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
       </div>
@@ -1050,19 +1040,32 @@
           <div class="footer-section">
             <h3>خدماتنا</h3>
             <ul>
-              <li><a href="#">تنظيف منازل</a></li>
-              <li><a href="#">تنظيف خزانات</a></li>
-              <li><a href="#">مكافحة حشرات</a></li>
-              <li><a href="#">تنظيف بالبخار</a></li>
-              <li><a href="#">طارد الحمام</a></li>
-              <li><a href="#">صيانة حدائق</a></li>
+              <li><a href="#homeS">تنظيف منازل</a></li>
+              <li><a href="#lHomeS">تنظيف فلل</a></li>
+              <li><a href="#tankS">تنظيف خزانات</a></li>
+              <li><a href="#insS">مكافحة حشرات</a></li>
+              <li><a href="#cleanS">تنظيف بالبخار</a></li>
+              <li><a href="#pigeonS">طارد الحمام</a></li>
+              <li><a href="#gardensS">صيانة حدائق</a></li>
             </ul>
           </div>
           <div class="footer-section">
             <h3>تواصل معنا</h3>
             <ul>
-              <li><i class="fas fa-phone"></i> +966 XXXXXXXX</li>
-              <li><i class="fas fa-envelope"></i> info@hoorclean.com</li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+966545870254">
+                  <span dir="ltr">+966 54 587 0254</span></a
+                >
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a
+                  href="mailto:hassanabdelaziz940@gmail.com?subject=استفسار من الموقع الالكتروني &body=السلام عليكم، لدي استفسار بشأن"
+                  >hassanabdelaziz940@gmail.com</a
+                >
+              </li>
+
               <li>
                 <i class="fas fa-map-marker-alt"></i> مكة المكرمة - المملكة
                 العربية السعودية

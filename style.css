@@ -55,7 +55,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  text-align: center;
 }
 
 /* شريط التنقل */
@@ -687,10 +686,11 @@ body {
   background-color: var(--light-color);
 }
 
-.contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-between;
 }
 
 .contact-info h3 {
@@ -803,7 +803,7 @@ footer {
 .footer-section h3::after {
   content: "";
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 50px;
   height: 2px;
@@ -834,6 +834,7 @@ footer {
 .social-links {
   display: flex;
   margin-top: 20px;
+  justify-content: center;
 }
 
 .social-links a {
