@@ -1,0 +1,6 @@
+services:
+  site3:
+    build: .
+    container_name: hoorClean
+    ports:
+      - "9003:80"
