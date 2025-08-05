@@ -61,7 +61,7 @@ body {
 .navbar {
   background-color: var(--bg-color);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -245,7 +245,7 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-  margin-top: 80px;
+  margin-top: 10px;
 }
 
 .hero::before {
@@ -934,7 +934,9 @@ footer {
   .section {
     padding: 70px 0;
   }
-
+  .container {
+    width: 100%;
+  }
   .section-title h2 {
     font-size: 2rem;
   }
